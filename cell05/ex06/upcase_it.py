@@ -1,8 +1,8 @@
-text = input("Enter your Text:")
-words = text.split()      
-word_count = len(words)
-if word_count >=1:
-    "text.upper()"
-else:
+import sys
+
+if len(sys.argv) != 2:
     print("none")
+else:
+    print(sys.argv[1].upper())
+
 
