@@ -1,6 +1,5 @@
 import sys
-if len(text)>0:
-    print(text[0])
+if len(sys.argv)>1:
+    print(sys.argv[1])
 else:
     print("none")
-
