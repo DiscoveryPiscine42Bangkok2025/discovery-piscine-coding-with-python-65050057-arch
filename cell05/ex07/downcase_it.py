@@ -1,7 +1,6 @@
-text = input("Enter your Text:")
-words = text.split()      
-word_count = len(words)
-if word_count >=1:
-    print(text.lower())
-else:
+import sys
+
+if len(sys.argv) != 2:
     print("none")
+else:
+    print(sys.argv[1].lower())
